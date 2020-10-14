@@ -1,38 +1,3 @@
-/*body {
-
-}
-
-.tabs {
-
-}
-
-.tabs-lista {
-
-}
-.clearfix::after{
-
-}
-
-.tabs-menu {
-
-}
-
-.div-tabs {
-
-}
-
-.js-activo{
-
-}
-
-.js-contenido-oculto{
-
-}*/
-
-
-
-
-
 body {
     margin: 0;
     background-color: #eee;
@@ -53,15 +18,14 @@ p{
     margin-bottom: 20px;
     font-size: 20px;
 }
-
 .tabs {
     margin: 0 auto;
     width: 800px;
 }
-
+/*esta clase que peretenece al Ul que contiene los enlaces
+se le da un margin-bottom de -1px para que de el efecto de que son un mismo componente*/
 .tabs-lista {
     list-style: none;
-    margin: 0;
     padding-left: 29%;
     margin-bottom: -1px;
 }
@@ -89,12 +53,14 @@ p{
     border: 1px solid grey;
 }
 
+/*Clase que cambia el estilo de los links cuando es llamado por el Js*/
 .js-activo{
     background-color: grey;
     border-bottom: 1px solid grey;
     color: #eee;
 }
 
+/*Clase para ocultar el contenido*/
 .js-contenido-oculto{
     display: none;
 }
